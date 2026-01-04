@@ -10,5 +10,13 @@
         "address": "Jl. Setia Budi, Simpang Selayang, Medan City, North Sumatra",
         "about_button": "About Us",
         "product_button": "View Products"
+    },
+    "features": {
+        "delivery_title": "Fast Delivery",
+        "delivery_desc": "Shipped to your project site as soon as possible.",
+        "quality_title": "High-Quality Products",
+        "quality_desc": "Original products with high quality and  SNI standards.",
+        "price_title": "Best Prices",
+        "price_desc": "Competitive rates for contractors & retail."
     }
 }

@@ -10,5 +10,13 @@
         "address": "Jl. Setia Budi, Simpang Selayang, Kota Medan, Sumatera Utara",
         "about_button": "Tentang Kami",
         "product_button": "Lihat Produk"
+    },
+    "features": {
+        "delivery_title": "Pengiriman Cepat",
+        "delivery_desc": "Dikirim ke lokasi Anda sesegera mungkin",
+        "quality_title": "Produk Berkualitas",
+        "quality_desc": "Produk asli berstandar SNI dengan kualitas tinggi",
+        "price_title": "Harga Terbaik",
+        "price_desc": "Harga bersaing untuk kontraktor & eceran."
     }
 }

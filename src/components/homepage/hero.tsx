@@ -1,5 +1,5 @@
 import { Trans, useTranslation } from "react-i18next";
-import hero from "../assets/hero.jpg";
+import hero from "../../assets/hero.jpg";
 import { FaLocationDot } from "react-icons/fa6";
 
 export default function Hero() {

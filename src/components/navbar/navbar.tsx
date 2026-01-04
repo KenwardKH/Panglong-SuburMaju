@@ -16,9 +16,15 @@ export default function Navbar() {
             <h1>Suburmaju</h1>
 
             <div className="hidden md:flex space-x-6 text-lg">
-              <a href="#" className="hover:text-blue-500">{t("nav.about")}</a>
-              <a href="#" className="hover:text-blue-500">{t("nav.products")}</a>
-              <a href="#" className="hover:text-blue-500">{t("nav.contact")}</a>
+              <a href="#" className="hover:text-blue-500">
+                {t("nav.about")}
+              </a>
+              <a href="#" className="hover:text-blue-500">
+                {t("nav.products")}
+              </a>
+              <a href="#" className="hover:text-blue-500">
+                {t("nav.contact")}
+              </a>
             </div>
             <div className="hidden md:flex">
               <LanguageSwitcher />
@@ -36,13 +42,19 @@ export default function Navbar() {
         <div className="flex md:hidden flex-col bg-white shadow-md border-t">
           <ul className="border-b">
             <li className="px-4 py-2">
-              <a href="#" className="hover:text-blue-500">{t("nav.about")}</a>
+              <a href="#" className="hover:text-blue-500">
+                {t("nav.about")}
+              </a>
             </li>
             <li className="px-4 py-2">
-              <a href="#" className="hover:text-blue-500">{t("nav.products")}</a>
+              <a href="#" className="hover:text-blue-500">
+                {t("nav.products")}
+              </a>
             </li>
             <li className="px-4 py-2">
-              <a href="#" className="hover:text-blue-500">{t("nav.contact")}</a>
+              <a href="#" className="hover:text-blue-500">
+                {t("nav.contact")}
+              </a>
             </li>
           </ul>
           <div className="px-4 py-2">
