@@ -3,5 +3,12 @@
         "about": "Tentang Kami",
         "products": "Produk Kami",
         "contact": "Kontak"
+    },
+    "hero": {
+        "shop_name": "Toko Subur Maju",
+        "headline" : "Toko Bangunan <1>Lengkap & Terpecaya</1>",
+        "address": "Jl. Setia Budi, Simpang Selayang, Kota Medan, Sumatera Utara",
+        "about_button": "Tentang Kami",
+        "product_button": "Lihat Produk"
     }
 }

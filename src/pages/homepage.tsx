@@ -1,7 +1,9 @@
+import Hero from "../components/hero";
+
 export default function Homepage(){
     return(
-        <div>
-            Ini adalah homepage
+        <div className="z-0">
+            <Hero />
         </div>
     )
 }

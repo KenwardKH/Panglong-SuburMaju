@@ -1,25 +1,55 @@
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./switchLanguage";
+import { useState } from "react";
+import { IoMdMenu } from "react-icons/io";
+import { FiX } from "react-icons/fi";
 
 export default function Navbar() {
-    const { t } = useTranslation()
-    return (
-        <nav className="bg-white shadow-md w-full">
-            <div className="max-w-7xl mx-auto px-6">
-                <div className="flex justify-between h-16 items-center">
-                    
-                    <div className="flex space-x-4">
-                        <a href="#">{t('nav.about')}</a>
-                        <a href="#">{t('nav.products')}</a>
-                        <a href="#">{t('nav.contact')}</a>
-                    </div>
-                    <div>
-                        <LanguageSwitcher />
-                    </div>
-                </div>
-                
+  const [isOpen, setIsOpen] = useState(false);
+
+  const { t } = useTranslation();
+  return (
+    <>
+      <nav className="bg-white shadow-md w-full sticky left-0 top-0 z-10">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex justify-between h-16 items-center">
+            <h1>Suburmaju</h1>
+
+            <div className="hidden md:flex space-x-6 text-lg">
+              <a href="#" className="hover:text-blue-500">{t("nav.about")}</a>
+              <a href="#" className="hover:text-blue-500">{t("nav.products")}</a>
+              <a href="#" className="hover:text-blue-500">{t("nav.contact")}</a>
             </div>
-            
-        </nav>
-    )
+            <div className="hidden md:flex">
+              <LanguageSwitcher />
+            </div>
+
+            <div className="md:hidden flex text-4xl">
+              <button onClick={() => setIsOpen(!isOpen)}>
+                {isOpen ? <FiX /> : <IoMdMenu />}
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      {isOpen && (
+        <div className="flex md:hidden flex-col bg-white shadow-md border-t">
+          <ul className="border-b">
+            <li className="px-4 py-2">
+              <a href="#" className="hover:text-blue-500">{t("nav.about")}</a>
+            </li>
+            <li className="px-4 py-2">
+              <a href="#" className="hover:text-blue-500">{t("nav.products")}</a>
+            </li>
+            <li className="px-4 py-2">
+              <a href="#" className="hover:text-blue-500">{t("nav.contact")}</a>
+            </li>
+          </ul>
+          <div className="px-4 py-2">
+            <LanguageSwitcher />
+          </div>
+        </div>
+      )}
+    </>
+  );
 }
