@@ -1,6 +1,7 @@
 import { Trans, useTranslation } from "react-i18next";
 import hero from "../../assets/hero.jpg";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -31,16 +32,16 @@ export default function Hero() {
           </span>
         </p>
         <div className="flex space-x-6 mt-6">
-          <a href="#">
+          <Link to="#">
             <button className="flex px-6 py-3 text-yellow-500 border-[2px] border-yellow-400 w-auto rounded-md hover:bg-yellow-500 hover:text-black transform duration-100 active:bg-yellow-600 font-bold">
               {t("hero.about_button")}
             </button>
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="#">
             <button className="flex px-6 py-3 text-white border-[2px] border-white w-auto rounded-md hover:bg-white hover:text-black transform duration-100 active:bg-white/90 font-bold">
               {t("hero.product_button")}
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

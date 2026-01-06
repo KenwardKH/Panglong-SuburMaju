@@ -1,22 +1,34 @@
 {
-    "nav": {
-        "about": "About Us",
-        "products": "Our Products",
-        "contact": "Contact"
-    },
-    "hero": {
-        "shop_name": "Subur Maju Store",
-        "headline" : "<1>Complete & Reliable</1> Material Store",
-        "address": "Jl. Setia Budi, Simpang Selayang, Medan City, North Sumatra",
-        "about_button": "About Us",
-        "product_button": "View Products"
-    },
-    "features": {
-        "delivery_title": "Fast Delivery",
-        "delivery_desc": "Shipped to your project site as soon as possible.",
-        "quality_title": "High-Quality Products",
-        "quality_desc": "Original products with high quality and  SNI standards.",
-        "price_title": "Best Prices",
-        "price_desc": "Competitive rates for contractors & retail."
-    }
+  "nav": {
+    "about": "About Us",
+    "products": "Our Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "shop_name": "Subur Maju Store",
+    "headline": "<1>Complete & Reliable</1> Material Store",
+    "address": "Jl. Setia Budi, Simpang Selayang, Medan City, North Sumatra",
+    "about_button": "About Us",
+    "product_button": "View Products"
+  },
+  "features": {
+    "title": "Our Advantages",
+    "subtitle": "Why Choose Subur Maju Store?",
+    "delivery_title": "Fast Delivery",
+    "delivery_desc": "Shipped to your project site as soon as possible.",
+    "quality_title": "High-Quality Products",
+    "quality_desc": "Original products with high quality and  SNI standards.",
+    "price_title": "Best Prices",
+    "price_desc": "Competitive rates for contractors & retail."
+  },
+  "categories": {
+    "title": "Product Categories",
+    "subtitle": "Find complete construction materials you needed.",
+    "basic": "Basic Materials (Sands/Stones)",
+    "structure": "Cement, Brick and Steel",
+    "wood": "Plywoods",
+    "paint": "Paints & Painting Tools",
+    "plumbing": "Plumbing & Fitting",
+    "tools": "Hardware & Tools"
+  }
 }

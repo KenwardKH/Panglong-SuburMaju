@@ -3,28 +3,29 @@ import LanguageSwitcher from "./switchLanguage";
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { FiX } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const { t } = useTranslation();
   return (
-    <>
-      <nav className="bg-white shadow-md w-full sticky left-0 top-0 z-10">
+    <header className="sticky left-0 top-0 z-10">
+      <nav className="bg-white shadow-md w-full">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-between h-16 items-center">
             <h1>Suburmaju</h1>
 
             <div className="hidden md:flex space-x-6 text-lg">
-              <a href="#" className="hover:text-blue-500">
+              <Link to="#" className="hover:text-blue-500">
                 {t("nav.about")}
-              </a>
-              <a href="#" className="hover:text-blue-500">
+              </Link>
+              <Link to="#" className="hover:text-blue-500">
                 {t("nav.products")}
-              </a>
-              <a href="#" className="hover:text-blue-500">
+              </Link>
+              <Link to="#" className="hover:text-blue-500">
                 {t("nav.contact")}
-              </a>
+              </Link>
             </div>
             <div className="hidden md:flex">
               <LanguageSwitcher />
@@ -62,6 +63,6 @@ export default function Navbar() {
           </div>
         </div>
       )}
-    </>
+    </header>
   );
 }

@@ -1,22 +1,34 @@
 {
-    "nav": {
-        "about": "Tentang Kami",
-        "products": "Produk Kami",
-        "contact": "Kontak"
-    },
-    "hero": {
-        "shop_name": "Toko Subur Maju",
-        "headline" : "Toko Bangunan <1>Lengkap & Terpecaya</1>",
-        "address": "Jl. Setia Budi, Simpang Selayang, Kota Medan, Sumatera Utara",
-        "about_button": "Tentang Kami",
-        "product_button": "Lihat Produk"
-    },
-    "features": {
-        "delivery_title": "Pengiriman Cepat",
-        "delivery_desc": "Dikirim ke lokasi Anda sesegera mungkin",
-        "quality_title": "Produk Berkualitas",
-        "quality_desc": "Produk asli berstandar SNI dengan kualitas tinggi",
-        "price_title": "Harga Terbaik",
-        "price_desc": "Harga bersaing untuk kontraktor & eceran."
-    }
+  "nav": {
+    "about": "Tentang Kami",
+    "products": "Produk Kami",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "shop_name": "Toko Subur Maju",
+    "headline": "Toko Bangunan <1>Lengkap & Terpecaya</1>",
+    "address": "Jl. Setia Budi, Simpang Selayang, Kota Medan, Sumatera Utara",
+    "about_button": "Tentang Kami",
+    "product_button": "Lihat Produk"
+  },
+  "features": {
+    "title": "Keunggulan Kami",
+    "subtitle": "Kenapa Memilih Toko Subur Maju?",
+    "delivery_title": "Pengiriman Cepat",
+    "delivery_desc": "Dikirim ke lokasi Anda sesegera mungkin",
+    "quality_title": "Produk Berkualitas",
+    "quality_desc": "Produk asli berstandar SNI dengan kualitas tinggi",
+    "price_title": "Harga Terbaik",
+    "price_desc": "Harga bersaing untuk kontraktor & eceran."
+  },
+  "categories": {
+    "title": "Kategori Produk",
+    "subtitle": "Temukan material konstruksi lengkap yang Anda butuhkan.",
+    "basic": "Material Alam (Pasir/Batu)",
+    "structure": "Semen, Batu Bata, dan Besi",
+    "wood": "Triplek",
+    "paint": "Cat & Peralatan Cat",
+    "plumbing": "Pipa & Sambungan",
+    "tools": "Alat Pertukangan"
+  }
 }

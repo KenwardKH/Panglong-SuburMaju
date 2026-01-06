@@ -22,30 +22,30 @@ export default function Features() {
     },
   ];
   return (
-    <div>
-      <section className="py-16 bg-white">
-        <div className="text-center ">
-          <h1 className="text-4xl font-bold mb-2">Keunggulan Kami</h1>
-          <h2 className="text-2xl font-semibold mb-4">Kenapa Memilih Toko Subur Maju?</h2>
-        </div>
+    <section className="py-16 bg-white">
+      <div className="text-center mb-12">
+        <h1 className="text-4xl font-bold mb-2">{t("features.title")}</h1>
+        <h2 className="text-2xl font-semibold">
+          {t("features.subtitle")}
+        </h2>
+      </div>
 
-        <div className="container mx-auto px-6">
-          <div className="flex flex-wrap justify-center">
-            {featuresList.map((item, index) => (
-              <div
-                key={index}
-                className="flex flex-col border border-transparent shadow-md px-8 py-6 max-w-[320px] items-center text-center m-4 hover:shadow-xl transform duration-500 rounded-lg hover:border-gray-100 gap-1 hover:translate-y-1"
-              >
-                <div className="text-4xl p-4 mb-2 bg-yellow-200 rounded-full text-orange-500">
-                  {item.icon}
-                </div>
-                <h2 className="font-bold text-xl">{item.title}</h2>
-                <p className="text-gray-600 text-balance">{item.desc}</p>
+      <div className="container mx-auto px-6">
+        <div className="flex flex-wrap justify-center">
+          {featuresList.map((item, index) => (
+            <div
+              key={index}
+              className="flex flex-col border border-transparent shadow-md px-8 py-6 max-w-[320px] items-center text-center m-4 hover:shadow-xl transform duration-500 rounded-lg hover:border-gray-100 gap-1 hover:translate-y-1"
+            >
+              <div className="text-4xl p-4 mb-2 bg-yellow-200 rounded-full text-orange-500">
+                {item.icon}
               </div>
-            ))}
-          </div>
+              <h2 className="font-bold text-xl">{item.title}</h2>
+              <p className="text-gray-600 text-balance">{item.desc}</p>
+            </div>
+          ))}
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
