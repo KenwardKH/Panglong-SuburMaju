@@ -43,9 +43,9 @@ export default function ProductCategories() {
   return (
     <section className="py-16 container mx-auto px-6 ">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-2">Kategori Produk</h1>
-        <h2 className="text-xl font-semibold">
-          Temukanlah Produk yang Kamu Inginkan
+        <h1 className="text-4xl font-bold mb-2">{t("categories.title")}</h1>
+        <h2 className="text-2xl font-semibold">
+          {t("categories.subtitle")}
         </h2>
       </div>
       <div className="w-full flex justify-center">

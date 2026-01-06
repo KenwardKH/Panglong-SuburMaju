@@ -30,5 +30,10 @@
     "paint": "Paints & Painting Tools",
     "plumbing": "Plumbing & Fitting",
     "tools": "Hardware & Tools"
+  },
+  "contact": {
+    "title": "Interested With Our Products?",
+    "subtitle": "Please Contact Us or Visit Our Store",
+    "location": "View Address & Contact"
   }
 }
