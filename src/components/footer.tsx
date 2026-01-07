@@ -65,10 +65,10 @@ export default function Footer() {
               </h1>
               <div className="flex flex-col gap-3">
                 <p className="text-gray-400 flex items-center gap-3">
-                  <FaWhatsapp className="text-yellow-500 text-lg" />
+                  <FaWhatsapp className="text-yellow-500 text-xl" />
                   +62 8123456789
                 </p>
-                <p className="text-gray-400 flex items-start gap-3">
+                <p className="text-gray-400 flex items-start gap-4">
                   <FaLocationDot className="text-yellow-500 mt-1 text-lg" />
                   <span>
                     Jl. Setia Budi, Simpang Selayang,
