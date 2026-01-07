@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Beranda",
     "about": "Tentang Kami",
     "products": "Produk Kami",
     "contact": "Kontak"
@@ -35,5 +36,10 @@
     "title": "Tertarik Dengan Produk Kami?",
     "subtitle": "Silahkan Hubungi atau Kunjungi Toko Kami",
     "location": "Lihat Lokasi & Kontak"
+  },
+  "footer": {
+    "tagline": "Toko bangunan terpecaya untuk segala kebutuhan konstruksi dan renovasi rumah Anda.",
+    "links_title": "Tautan Cepat",
+    "contact_title": "Hubungi Kami"
   }
 }

@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Home",
     "about": "About Us",
     "products": "Our Products",
     "contact": "Contact"
@@ -35,5 +36,10 @@
     "title": "Interested With Our Products?",
     "subtitle": "Please Contact Us or Visit Our Store",
     "location": "View Address & Contact"
+  },
+  "footer": {
+    "tagline": "Your trusted material store for all construction and home renovation needs.",
+    "links_title": "Quick Links",
+    "contact_title": "Contact Us"
   }
 }
