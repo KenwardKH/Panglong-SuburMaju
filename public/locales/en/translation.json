@@ -34,7 +34,7 @@
   },
   "contact": {
     "title": "Interested With Our Products?",
-    "subtitle": "Please Contact Us or Visit Our Store",
+    "subtitle": "Please Contact Us or Visit Our Store.",
     "location": "View Address & Contact"
   },
   "footer": {
@@ -49,5 +49,15 @@
     "info_1": "Years Experience",
     "info_2": "Work Time",
     "info_3": "Product Items"
+  },
+  "contact_page": {
+    "title": "Contact Store",
+    "subtitle": "Interested in our products? Please contact us.",
+    "phone": "Phone / WhatsApp",
+    "address": "Store Address",
+    "hours": "Opening Hours",
+    "hours_detail": "Mon - Sat: 09.00 AM - 05.00 PM WIB",
+    "sunday": "Sunday: Closed",
+    "map": "View Location"
   }
 }

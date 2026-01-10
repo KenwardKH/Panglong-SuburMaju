@@ -34,7 +34,7 @@
   },
   "contact": {
     "title": "Tertarik Dengan Produk Kami?",
-    "subtitle": "Silahkan Hubungi atau Kunjungi Toko Kami",
+    "subtitle": "Silahkan Hubungi atau Kunjungi Toko Kami.",
     "location": "Lihat Lokasi & Kontak"
   },
   "footer": {
@@ -49,6 +49,15 @@
     "info_1": "Tahun Pengalaman",
     "info_2": "Jam Kerja",
     "info_3": "Jenis Produk"
+  },
+  "contact_page": {
+    "title": "Hubungi Toko",
+    "subtitle": "Tertarik dengan produk kami? Silahkan hubungi kami.",
+    "phone": "Telepon / WhatsApp",
+    "address": "Alamat Toko",
+    "hours": "Jam Operasional",
+    "hours_detail": "Senin - Sabtu: 09.00 - 17.00 WIB",
+    "sunday": "Minggu: Tutup",
+    "map": "Lihat Lokasi"
   }
 }
-

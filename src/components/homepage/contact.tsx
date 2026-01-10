@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { FaMapLocation, FaMapLocationDot, FaWhatsapp } from "react-icons/fa6";
+import { FaMapLocationDot, FaWhatsapp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 export default function ContactSection() {
