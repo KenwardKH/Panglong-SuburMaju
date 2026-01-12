@@ -5,39 +5,40 @@ import semen from "../../assets/products/semen.jpg";
 import triplek from "../../assets/products/triplek.jpg";
 import pipa from "../../assets/products/pipa.jpeg";
 import alat from "../../assets/products/alat.jpg";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export default function ProductCategories() {
+  const { t } = useTranslation();
   const categoryList = [
     {
-      id: "basic",
+      id: "structure",
       img: pasir,
-      slug: "basic-materials",
+      filterValue: "Material Struktur",
     },
     {
       id: "paint",
       img: cat,
-      slug: "paint-tools",
+      filterValue: "Cat dan Finishing",
     },
     {
-      id: "structure",
+      id: "fastener",
       img: semen,
-      slug: "semen-beton",
+      filterValue: "Paku dan Pengikat",
     },
     {
       id: "wood",
       img: triplek,
-      slug: "wood-material",
+      filterValue: "Kayu dan Triplek",
     },
     {
       id: "plumbing",
       img: pipa,
-      slug: "plumbing",
+      filterValue: "Pipa dan Plumbing",
     },
     {
       id: "tools",
       img: alat,
-      slug: "tools",
+      filterValue: "Alat Pertukangan",
     },
   ];
   return (
@@ -51,10 +52,12 @@ export default function ProductCategories() {
           <div className="flex flex-wrap justify-center gap-3 md:gap-8 max-w-7xl">
             {categoryList.map((item) => (
               <Link
-                to="#"
+                key={item.id}
+                to="/products"
+                state={{ category: item.filterValue }}
                 className="group block border rounded-lg overflow-hidden shadow-md transition-all hover:shadow-xl hover:scale-105 duration-300"
               >
-                <div className="w-64 h-40 md:w-72 md:h-64 overflow-hidden relative">
+                <div className="w-72 h-40 md:w-72 md:h-64 overflow-hidden relative">
                   <img
                     src={item.img}
                     alt={item.id}
@@ -63,7 +66,7 @@ export default function ProductCategories() {
                   <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transform duration-500"></div>
                 </div>
                 <div className="text-center bg-white">
-                  <p className="px-4 py-2 font-semibold group-hover:text-yellow-600 duration-400">
+                  <p className="px-3 py-2 font-semibold text-sm group-hover:text-yellow-600 duration-400">
                     {t(`categories.${item.id}`)}
                   </p>
                 </div>
