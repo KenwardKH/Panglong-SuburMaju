@@ -32,12 +32,12 @@ export default function Hero() {
           </span>
         </p>
         <div className="flex space-x-6 mt-6">
-          <Link to="#">
+          <Link to="about">
             <button className="flex px-6 py-3 text-yellow-500 border-[2px] border-yellow-400 w-auto rounded-md hover:bg-yellow-500 hover:text-black transform duration-100 active:bg-yellow-600 font-bold">
               {t("hero.about_button")}
             </button>
           </Link>
-          <Link to="#">
+          <Link to="products">
             <button className="flex px-6 py-3 text-white border-[2px] border-white w-auto rounded-md hover:bg-white hover:text-black transform duration-100 active:bg-white/90 font-bold">
               {t("hero.product_button")}
             </button>

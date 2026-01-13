@@ -67,14 +67,17 @@
       "tools": "Tools",
       "fastener": "Fasteners",
       "paint": "Paint & Finishing",
-      "wood": "Wood & Plywood",
-      "plumbing": "Plumbing"
+      "wood": "Woods & Plywood",
+      "plumbing": "Plumbing",
+      "electronic": "Electronics",
+      "others": "Others"
     },
     "title": "Product List",
     "subtitle": "Find all construction materials you wanted.",
-    "order": "Order Now",
+    "ask_info": "Ask for Info",
     "loading": "Loading Product List...",
     "empty": "Product Not Found.",
-    "reset": "Reset Search"
+    "reset": "Reset Search",
+    "whatsapp_msg": "Halo Toko Subur Maju, saya ingin bertanya informasi mengenai produk: {{productName}}"
   }
 }

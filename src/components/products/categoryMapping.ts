@@ -5,6 +5,8 @@ const excelToTranslationKey: Record<string, string> = {
   "Cat dan Finishing": "paint",
   "Kayu dan Triplek": "wood",
   "Pipa dan Plumbing": "plumbing",
+  "Elektronik": "electronic",
+  "Lainnya": "others",
 };
 
 export const getTranslationKey = (excelValue: string): string => {

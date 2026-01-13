@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import pasir from "../../assets/products/pasir.jpg";
 import cat from "../../assets/products/cat.jpg";
-import semen from "../../assets/products/semen.jpg";
+import paku from "../../assets/products/paku_dan_skrup.jpg";
 import triplek from "../../assets/products/triplek.jpg";
 import pipa from "../../assets/products/pipa.jpeg";
 import alat from "../../assets/products/alat.jpg";
@@ -22,7 +22,7 @@ export default function ProductCategories() {
     },
     {
       id: "fastener",
-      img: semen,
+      img: paku,
       filterValue: "Paku dan Pengikat",
     },
     {

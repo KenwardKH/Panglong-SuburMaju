@@ -68,13 +68,16 @@
       "fastener": "Paku & Pengikat",
       "paint": "Cat & Finishing",
       "wood": "Kayu & Triplek",
-      "plumbing": "Pipa & Plumbing"
+      "plumbing": "Pipa & Plumbing",
+      "electronic": "Elektronik",
+      "others": "Lainnya"
     },
     "title": "Daftar Produk",
     "subtitle": "Temukan material konstruksi yang Anda inginkan.",
-    "order": "Pesan Sekarang",
+    "ask_info": "Tanya Info Produk",
     "loading": "Memuat Daftar Produk...",
     "empty": "Produk Tidak Ditemukan.",
-    "reset": "Reset Pencarian"
+    "reset": "Reset Pencarian",
+    "whatsapp_msg": "Halo Toko Subur Maju, saya ingin bertanya informasi mengenai produk: {{productName}}"
   }
 }

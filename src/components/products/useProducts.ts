@@ -19,7 +19,11 @@ export const useProducts = () => {
         const rawData = results.data as CsvRow[];
 
         const mappedData: Product[] = rawData
-          .filter((row) => row["Nama Produk"])
+          .filter(
+            (row) =>
+              row["Nama Produk"] &&
+              row["Status"]?.toLocaleLowerCase().trim() === "tersedia"
+          )
           .map((row) => {
             const cleanPrice = row["Harga Jual"]
               ? parseInt(row["Harga Jual"].replace(/\./g, "").replace(/,/g, ""))
