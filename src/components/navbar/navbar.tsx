@@ -10,7 +10,7 @@ export default function Navbar() {
 
   const { t } = useTranslation();
 
-  const navLinkClass = ({ isActive }) =>
+  const navLinkClass = ({ isActive }: {isActive: boolean}) =>
     `transition duration-300 ${
       isActive
         ? "text-yellow-500 font-bold"
