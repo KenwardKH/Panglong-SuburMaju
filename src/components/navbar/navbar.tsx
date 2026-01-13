@@ -10,7 +10,7 @@ export default function Navbar() {
 
   const { t } = useTranslation();
 
-  const navLinkClass = ({ isActive }: {isActive: boolean}) =>
+  const navLinkClass = ({ isActive }: { isActive: boolean }) =>
     `transition duration-300 ${
       isActive
         ? "text-yellow-500 font-bold"
@@ -22,10 +22,7 @@ export default function Navbar() {
       <nav className="bg-white shadow-md w-full">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-between h-16 items-center">
-            <h1
-              className="text-xl font-bold uppercase tracking-wide"
-              onClick={() => setIsOpen(!isOpen)}
-            >
+            <h1 className="text-lg md:text-xl font-bold uppercase tracking-wide">
               <Link to="/">Suburmaju</Link>
             </h1>
 
@@ -47,7 +44,7 @@ export default function Navbar() {
               <LanguageSwitcher />
             </div>
 
-            <div className="md:hidden flex space-x-4">
+            <div className="md:hidden flex space-x-2">
               <LanguageSwitcher />
               <button className="text-4xl" onClick={() => setIsOpen(!isOpen)}>
                 {isOpen ? <FiX /> : <IoMdMenu />}
