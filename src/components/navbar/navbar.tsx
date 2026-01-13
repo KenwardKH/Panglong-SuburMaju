@@ -44,7 +44,7 @@ export default function Navbar() {
               <LanguageSwitcher />
             </div>
 
-            <div className="md:hidden flex space-x-2">
+            <div className="md:hidden flex space-x-2 items-center">
               <LanguageSwitcher />
               <button className="text-4xl" onClick={() => setIsOpen(!isOpen)}>
                 {isOpen ? <FiX /> : <IoMdMenu />}

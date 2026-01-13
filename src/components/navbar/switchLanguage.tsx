@@ -43,17 +43,17 @@ function SwitchLanguage() {
     <div ref={dropdownRef} className="relative inline-block text-left">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="inline-flex justify-between items-center min-w-[120px] px-2 py-2
+        className="inline-flex justify-between items-center min-w-[120px] px-2 md:px-4 py-1 md:py-2
         bg-gray-100 text-gray-600 border border-gray-300 rounded-md shadow-sm
         hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
       >
-        <span className="flex items-center">
+        <span className="flex items-center ">
           <ReactCountryFlag
             svg
             countryCode={currentLanguage.flag}
             className="w-5 h-3 mr-2 object-cover"
           />
-          {currentLanguage.name}
+          <span className="text-sm md:text-base font-medium">{currentLanguage.name}</span>
         </span>
         <svg
           className={`w-4 h-4 ml-2 transition-transform ${
