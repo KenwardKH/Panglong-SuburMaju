@@ -7,7 +7,7 @@ export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="h-[80vh] relative w-full z-0">
+    <section className="h-[100vh] relative w-full z-0">
       <div className="absolute inset-0">
         <img src={hero} alt="hero.jpg" className="w-full h-full object-cover" />
         <div className="bg-black/60 absolute inset-0"></div>
